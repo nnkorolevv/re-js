@@ -6,12 +6,12 @@
   "bugs": {
     "url": "https://github.com/nnkorolevv/re-js/issues"
   },
+  "license": "ISC",
+  "author": "nkorolev",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nnkorolevv/re-js.git"
   },
-  "license": "ISC",
-  "author": "nkorolev",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,9 @@
   },
   "dependencies": {
     "lodash": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "oxfmt": "^0.80.0"
   }
 }
